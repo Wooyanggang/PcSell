@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <NavBar />
       <div>
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router>
           <Routes>
             <Route path='/' element={<LandingPage />} />
             <Route path='/SmartBuy' element={<SmartBuy />} />
@@ -25,7 +25,7 @@ function App() {
 
       {/* 랜딩페이지 */}
       <Footer />
-    </div>
+    </div >
   );
 }
 
