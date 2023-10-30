@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { Card, List, Button } from 'antd';
+import { useNavigate } from 'react-router-dom';
 
 const data = [];
 
 const SmartBuyResult = () => {
 
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
   const [Mode, setMode] = useState([])
   const [listName, setlistName] = useState('내 견적')
   const [price, setprice] = useState(null)
@@ -22,7 +23,10 @@ const SmartBuyResult = () => {
     setMode(secondList)
     setlistName('최소 견적')
     setprice(300000)
+  }
 
+  function onClick() {
+    navigate('/NomalBuy/');
   }
   return (
     <div style={{
@@ -72,11 +76,11 @@ const SmartBuyResult = () => {
         dataSource={Mode}
         renderItem={(item) => (
           <List.Item>
-            {item[0]}: {item[1]}
+            <a href='/NomalBuy/'> {item[0]}: {item[1]}</a>
           </List.Item>
         )}
       />
-      <Button style={{ position: 'absolute', right: '5%', Button: '40%' }}>장바구니에 담기</Button>
+      <Button type="primary" onClick={onClick} style={{ position: 'absolute', right: '30%', top: '70%' }}>장바구니에 담기</Button>
 
     </div >
   )
