@@ -1,5 +1,5 @@
 {
-  "homepage": "https://wooyanggang.github.io/PC-Seller/",
+  "homepage": "https://wooyanggang.github.io/PcSell/",
   "name": "pcseller",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +17,8 @@
   "scripts": {
     "frontend": "npm run start --prefix client",
     "dev": "concurrently \"npm run frontend\"",
-    "predep": "npm run build --prefix client"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
