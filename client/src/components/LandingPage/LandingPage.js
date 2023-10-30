@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useNavigator } from 'react'
 import MainImage from '../../img/MainImg.jpg'
 import { Card, Button } from 'antd';
 
 const LandingPage = () => {
+  navigator = useNavigator();
   return (
     <div style={{
       position: 'relative',

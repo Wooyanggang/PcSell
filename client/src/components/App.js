@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <NavBar />
       <div>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <Routes>
             <Route path='/' element={<LandingPage />} />
             <Route path='/SmartBuy' element={<SmartBuy />} />
