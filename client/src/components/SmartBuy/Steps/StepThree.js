@@ -1,5 +1,5 @@
 import React from 'react'
-import { Select, Card, Checkbox, Input } from 'antd'
+import { Checkbox } from 'antd'
 
 const StepThree = () => {
   const addon = ['모니터', '모니터암', '책상', '마우스', '빔 프로젝터',]

@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Menu } from 'antd';
 import Login from '../Login/Login';
-import SmartBuy from '../SmartBuy/SmartBuy';
 
 const NavMenu = () => {
   const menu_list = ['로그인', '스마트 견적', '마이페이지', 'HELP CENTER'];
