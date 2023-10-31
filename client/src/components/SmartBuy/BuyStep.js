@@ -71,7 +71,7 @@ const BuyStep = () => {
             style={{
               margin: '0 5%',
             }}
-            onClick={() => navigate('/Result/')}>
+            onClick={() => navigate('Result/')}>
             Done
           </Button>
         )}
