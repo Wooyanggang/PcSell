@@ -14,10 +14,10 @@ function App() {
     <div className="App">
       <NavBar />
       <div>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <Routes>
-            <Route path='/' element={<LandingPage />} />
-            <Route path='/SmartBuy' element={<SmartBuy />} />
+            <Route path='/PcSell' element={<LandingPage />} />
+            <Route path='/PcSell/SmartBuy' element={<SmartBuy />} />
             <Route path='/SmartBuy/Result' element={<SmartBuyResult />} />
             <Route path='/NomalBuy' element={<NomalBuy />} />
           </Routes>

@@ -12,10 +12,10 @@ const NavMenu = () => {
     },
     {
       key: 'menuBuy',
-      label: <a href='/SmartBuy/'>스마트 견적</a>,
+      label: <a href='/PcSell/SmartBuy/'>스마트 견적</a>,
       children: [{
         key: 'SmartBuy',
-        label: <a href='/SmartBuy/'>스마트 견적</a>
+        label: <a href='/PcSell/SmartBuy/'>스마트 견적</a>
       },
       {
         key: 'NomalBuy',
