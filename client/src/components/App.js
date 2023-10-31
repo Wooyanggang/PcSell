@@ -18,8 +18,8 @@ function App() {
           <Routes>
             <Route path='/PcSell' element={<LandingPage />} />
             <Route path='/PcSell/SmartBuy' element={<SmartBuy />} />
-            <Route path='/SmartBuy/Result' element={<SmartBuyResult />} />
-            <Route path='/NomalBuy' element={<NomalBuy />} />
+            <Route path='/PcSell/SmartBuy/Result' element={<SmartBuyResult />} />
+            <Route path='/PcSell/NomalBuy' element={<NomalBuy />} />
           </Routes>
         </Router>
       </div>

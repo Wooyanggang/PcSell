@@ -34,7 +34,7 @@ const LandingPage = () => {
           top: '0'
         }}>
         <p>용도,예산에 맞춘 자동 견적을 제공해드립니다!</p>
-        <a href='/SmartBuy/'>
+        <a href='/PcSell/SmartBuy/'>
           <Button style={{
             marginTop: '5px',
             display: 'block',

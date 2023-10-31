@@ -3,8 +3,6 @@ import BuyStep from './BuyStep'
 import { useNavigate } from 'react-router-dom'
 
 const SmartBuy = () => {
-
-
   return (
     <div>
       <BuyStep />

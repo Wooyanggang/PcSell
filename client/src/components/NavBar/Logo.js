@@ -4,7 +4,7 @@ import React from 'react'
 
 const Logo = () => {
   return (
-    <a href='/'
+    <a href='/PcSell/'
       style={{
         backgroundImage: `url(${EasyPcLogo})`,
         width: '170px',

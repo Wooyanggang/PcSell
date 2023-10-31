@@ -19,7 +19,7 @@ const NavMenu = () => {
       },
       {
         key: 'NomalBuy',
-        label: <a href='/NomalBuy/'>온라인 견적</a>
+        label: <a href='/PcSell/NomalBuy/'>온라인 견적</a>
       }]
     },
     {

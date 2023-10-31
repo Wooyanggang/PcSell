@@ -5,7 +5,7 @@ import EasyPcLogo from '../../img/EasyPcLogo.png'
 const NomalBuy = () => {
   return (
     <div style={{ margin: '50% 50%', width: '100%', height: '100%', position: 'relative' }}>
-      <Tooltip title={<a href='/'
+      <Tooltip title={<a href='/PcSell/'
         style={{
           backgroundImage: `url(${EasyPcLogo})`,
           width: '300px',
