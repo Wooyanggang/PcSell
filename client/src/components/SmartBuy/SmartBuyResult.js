@@ -26,7 +26,7 @@ const SmartBuyResult = () => {
   }
 
   function onClick() {
-    navigate('/NomalBuy/');
+    navigate('/PcSell/NomalBuy/');
   }
   return (
     <div style={{
