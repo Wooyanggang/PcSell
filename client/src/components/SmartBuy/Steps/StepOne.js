@@ -11,10 +11,8 @@ const StepOne = () => {
       setUsage([...Usage, value])
   };
 
-  console.log(ReuseItem)
   const onChecked = (e) => {
     ReuseItem[e.target.index][1] = !ReuseItem[e.target.index][1]
-    console.log(ReuseItem)
     setReuseItem([...ReuseItem])
   }
 
@@ -84,7 +82,7 @@ const StepOne = () => {
             return (
               <React.Fragment key={index}>
                 <p>
-                  <Checkbox onChange={onChecked} value={e} index={index}>{e}</Checkbox>
+                  <Checkbox onChange={onChecked} reuse={e} index={index}>{e}</Checkbox>
                   {arr[index][1] && <Input placeholder="재사용할 부품명" />}
                 </p>
               </React.Fragment>
