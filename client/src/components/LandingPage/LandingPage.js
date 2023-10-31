@@ -1,5 +1,6 @@
 import React, { useNavigator } from 'react'
 import MainImage from '../../img/MainImg.jpg'
+import NavBar from '../NavBar/NavBar';
 import { Card, Button } from 'antd';
 
 const LandingPage = () => {
@@ -10,6 +11,12 @@ const LandingPage = () => {
       width: '100%',
       height: '90vh'
     }}>
+      <div style={{
+        position: 'absolute',
+        top: '-5%',
+        fontSize: '20px',
+        fontWeight: 'bold',
+      }}>메인 페이지</div>
       <div style={{
         width: '70%',
         height: '100%',

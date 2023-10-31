@@ -2,11 +2,15 @@ import NavMenu from './NavMenu';
 import Logo from './Logo';
 import React from 'react';
 import { Layout } from 'antd';
-import Login from '../Login/Login';
 
 const { Header } = Layout;
 
-const NavBar = () => {
+const NavBar = (props) => {
+  if (props.landingPage) {
+    console.log('랜딩페이지')
+  } else if (props.smartBuy) {
+    console.log('스마트 견적')
+  }
   return (
     <Layout className="layout"
       style={{ margin: '20px 5% 0' }}
