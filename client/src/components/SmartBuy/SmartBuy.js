@@ -53,13 +53,18 @@ const SmartBuy = () => {
       <div style={contentStyle}>{steps[current].content}</div>
       <div
         style={{
+          position: 'relative',
+          height: '1px',
           marginTop: 24,
         }}
       >
         {current < steps.length - 1 && (
           <Button type="primary"
             style={{
+              position: 'absolute',
               margin: '0 5%',
+              top: '-20px',
+              right: '0'
             }}
             onClick={() => next()}>
             Next
@@ -68,7 +73,10 @@ const SmartBuy = () => {
         {current === steps.length - 1 && (
           <Button type="primary"
             style={{
+              position: 'absolute',
               margin: '0 5%',
+              top: '-20px',
+              right: '0'
             }}
             onClick={() => navigate('Result/')}>
             Done
@@ -77,7 +85,9 @@ const SmartBuy = () => {
         {current > 0 && (
           <Button
             style={{
-              margin: '0 '
+              position: 'absolute',
+              top: '-20px',
+              right: '15%'
             }}
             onClick={() => prev()}
           >

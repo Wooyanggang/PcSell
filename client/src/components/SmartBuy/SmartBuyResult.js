@@ -76,7 +76,7 @@ const SmartBuyResult = () => {
         dataSource={Mode}
         renderItem={(item) => (
           <List.Item>
-            <a href='/NomalBuy/'> {item[0]}: {item[1]}</a>
+            <a href='/PcSell/NomalBuy/'> {item[0]}: {item[1]}</a>
           </List.Item>
         )}
       />
