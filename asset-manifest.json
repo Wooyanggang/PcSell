@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/PcSell/static/js/main.343d4e60.js",
+    "main.js": "/PcSell/static/js/main.36f5c5e3.js",
     "static/js/787.c4e7f8f9.chunk.js": "/PcSell/static/js/787.c4e7f8f9.chunk.js",
     "static/media/MainImg.jpg": "/PcSell/static/media/MainImg.1fb5a4836a1d7a31b313.jpg",
     "static/media/EasyPcLogo.png": "/PcSell/static/media/EasyPcLogo.ef02c8faffb18da56521.png",
     "index.html": "/PcSell/index.html",
-    "main.343d4e60.js.map": "/PcSell/static/js/main.343d4e60.js.map",
+    "main.36f5c5e3.js.map": "/PcSell/static/js/main.36f5c5e3.js.map",
     "787.c4e7f8f9.chunk.js.map": "/PcSell/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.343d4e60.js"
+    "static/js/main.36f5c5e3.js"
   ]
 }
