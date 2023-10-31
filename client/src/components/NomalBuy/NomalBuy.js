@@ -4,16 +4,15 @@ import EasyPcLogo from '../../img/EasyPcLogo.png'
 
 const NomalBuy = () => {
   return (
-    <div style={{ marginLeft: '5%', width: '100%', height: '500px', position: 'fixed', top: '30%', left: '30%' }}>
+    <div style={{ margin: '50% 50%', width: '100%', height: '100%', position: 'relative' }}>
       <Tooltip title={<a href='/'
         style={{
           backgroundImage: `url(${EasyPcLogo})`,
-          width: '500px',
-          height: '500px',
-          backgroundSize: '50%',
+          width: '300px',
+          height: '180px',
+          backgroundSize: 'auto',
           backgroundRepeat: 'no-repeat',
           position: 'absolute',
-          left: '0',
         }}>
       </a>}>
         <Spin />준비중입니다.

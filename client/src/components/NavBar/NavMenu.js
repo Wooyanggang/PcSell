@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Menu } from 'antd';
 import Login from '../Login/Login';
-import { useNavigate } from 'react-router-dom'
 import SmartBuy from '../SmartBuy/SmartBuy';
 
 const NavMenu = () => {

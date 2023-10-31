@@ -16,7 +16,6 @@ function App() {
         <Router>
           <Routes>
             <Route path='/' element={<LandingPage />} />
-            <Route path='/PcSell' element={<LandingPage />} />
             <Route path='/SmartBuy' element={<SmartBuy />} />
             <Route path='/SmartBuy/Result' element={<SmartBuyResult />} />
             <Route path='/NomalBuy' element={<NomalBuy />} />
